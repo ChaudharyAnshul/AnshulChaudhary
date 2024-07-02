@@ -1,15 +1,15 @@
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 
-import PieChart from '../../../src/sections/pie-chart';
-import RadarGraph from '../../../src/sections/radar-graph';
-import ProfileCard from "../../../src/sections/view/profile-card"
-import ProjectTable from '../../../src/sections/view/project-view'
-import WidgetSummary from '../../../src/sections/widget-summary';
-import TimeLineVisual from '../../../src/sections/timeline-visual';
-import ImageCard from '../../../src/sections/animated-folder-Card';
-import BarChartVertical from '../../../src/sections/bar-chart-vertical';
-import BarChartHorizontal from '../../../src/sections/bar-chart-horizontal';
+import PieChart from '../pie-chart';
+import RadarGraph from '../radar-graph';
+import ProfileCard from "./profile-card"
+import ProjectTable from './project-view'
+import WidgetSummary from '../widget-summary';
+import TimeLineVisual from '../timeline-visual';
+import ImageCard from '../animated-folder-Card';
+import BarChartVertical from '../bar-chart-vertical';
+import BarChartHorizontal from '../bar-chart-horizontal';
 
 // ----------------------------------------------------------------------
 
