@@ -33,7 +33,7 @@ export default function FolderCard({ title, subheader }) {
           <Grid item xs={4} sm={4} md={4} lg={4}>
             <Link href="https://se.chaudharyanshul.com/" target="_blank">
               <ImageBox>
-                <Image src="/assets/folders/snowflake-datawarehousing.png" alt="Image 1"/>
+                <Image src="assets/folders/snowflake-datawarehousing.png" alt="Image 1"/>
               </ImageBox>
             </Link>
           </Grid>
