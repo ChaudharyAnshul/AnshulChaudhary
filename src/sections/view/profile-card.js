@@ -28,7 +28,7 @@ export default function ProfileCard() {
           >
             <CardMedia
               component="img"
-              image="/assets/images/anshul-chaudhary.jpeg"
+              image="/assets/images/anshulchaudhary.jpeg"
               alt="Anshul Chaudhary"
               sx={{ height: '200px', width: '200px', borderRadius: '50%' }}
             />

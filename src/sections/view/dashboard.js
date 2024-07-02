@@ -147,7 +147,7 @@ export default function AppView() {
             name="Azure AI Fundamentals"
             linkURL="https://www.credly.com/badges/b099ff11-31c8-41d9-bc06-7057272a1dc4/public_url"
             color="success"
-            icon={<img alt="icon" src="/assets/certifications/azure-ai-fundamentals.png" />}
+            icon={<img alt="icon" src="/assets/certifications/azure-ai.png" />}
           />
         </Grid>
 
@@ -157,7 +157,7 @@ export default function AppView() {
             name="Azure Data Fundamentals"
             linkURL="https://www.credly.com/badges/6a48d1f2-ac6e-4d2a-b965-4c0e7d473420/public_url"
             color="success"
-            icon={<img alt="icon" src="/assets/certifications/azure-data-fundamentals.png" />}
+            icon={<img alt="icon" src="/assets/certifications/azure-data.png" />}
           />
         </Grid>
 
@@ -167,7 +167,7 @@ export default function AppView() {
             name="Azure Fundamentals"
             linkURL="https://www.credly.com/badges/3aa7f6c6-15f3-4f28-93e8-b076292cb2f1/public_url"
             color="success"
-            icon={<img alt="icon" src="/assets/certifications/azure-fundamentals.png" />}
+            icon={<img alt="icon" src="/assets/certifications/azure.png" />}
           />
         </Grid>
 
@@ -177,7 +177,7 @@ export default function AppView() {
             name="Data Lake"
             linkURL="https://www.credential.net/be2f069f-a785-434e-8edc-e2eb2a67df7e"
             color="success"
-            icon={<img alt="icon" src="/assets/certifications/snowflake-data-lake.png" />}
+            icon={<img alt="icon" src="/assets/certifications/snowflake-datalake.png" />}
           />
         </Grid>
 
@@ -191,7 +191,7 @@ export default function AppView() {
             name="Data Warehousing"
             linkURL="https://www.credential.net/59e18970-b9d2-445e-a6dd-75dfb9650709"
             color="success"
-            icon={<img alt="icon" src="/assets/certifications/snowflake-data-warehousing.png" />}
+            icon={<img alt="icon" src="/assets/certifications/snowflake-datawarehousing.png" />}
           />
         </Grid>
 
