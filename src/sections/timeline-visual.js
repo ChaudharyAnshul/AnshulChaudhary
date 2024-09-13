@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import format from 'date-fns/format';
 
 import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
@@ -49,7 +48,6 @@ TimeLineVisual.propTypes = {
 
 function TimeItem({ item, lastTimeline }) {
   const { type, title, time, subtitle } = item;
-  const formattedTime = format(time, 'MMMM yyyy');
 
   return (
     <TimelineItem>
@@ -68,7 +66,7 @@ function TimeItem({ item, lastTimeline }) {
 
       <TimelineContent>
         <Typography variant="caption" sx={{ color: 'text.disabled' }}>
-          {formattedTime}
+          {time}
         </Typography>
         <Typography variant="subtitle2">{title}</Typography>
 

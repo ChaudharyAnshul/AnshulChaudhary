@@ -32,19 +32,19 @@ const chartData = {
   categories: ['Communication', 'Teamwork', 'Critical Thinking', 'Problem Solving', 'Adaptability', 'Time Management'],
   series: [
     { name: 'Anshul Chaudhary', data: [91, 89, 92, 91, 87, 90] },
-    { name: 'Average Human', data: [70, 60, 60, 65, 60, 55] },
+    { name: 'Average Human', data: [80, 75, 75, 80, 75, 70] },
   ],
 };
 
 // tilemline
 const timeline = [
-  { id: '1', type: 'order1', title: 'Master of Science @ Northeastern University, USA', subtitle: "Commencement of Master's Program in Software Engineering", time: new Date('2023-09-02') },
-  { id: '2', type: 'order1', title: 'JPMorgan Chase & Co.', subtitle: 'Started my career as a Software Engineer', time: new Date('2021-07-02') },
-  { id: '3', type: 'order1', title: 'Bachelors of Engineering, India', subtitle: 'Completion of Undergraduate Education', time: new Date('2021-06-03') },
-  { id: '4', type: 'order1', title: 'Research Publication', subtitle: {text: 'IEEE Paper',link:"https://ieeexplore.ieee.org/document/9456440"}, time: new Date('2021-06-02') },
-  { id: '5', type: 'order1', title: 'ISTE-VESIT: Student Chapter', subtitle: 'Advanced to Chief Technical Officer position', time: new Date('2020-07-02') },
-  { id: '6', type: 'order1', title: 'ISTE-VESIT: Student Chapter', subtitle: 'Served as Technical Officer on the Student Council', time: new Date('2019-09-02') },
-  { id: '7', type: 'order1', title: 'Bachelors of Engineering @ Mumbai University, India', subtitle: "Commencement of Bachelor's Program in Information Technology", time: new Date('2017-08-02') },
+  { id: '1', type: 'order1', title: 'Nomad AI', subtitle: "Internship as Software Engineer", time: "July 2024 - September 2024" },
+  { id: '2', type: 'order1', title: 'Master of Science @ Northeastern University, USA', subtitle: "Commencement of Master's Program in Software Engineering", time: "September 2023" },
+  { id: '3', type: 'order1', title: 'JPMorgan Chase & Co.', subtitle: 'Started my career as a Software Engineer', time: "July 2021 - July 2023" },
+  { id: '4', type: 'order1', title: 'Bachelors of Engineering, India', subtitle: 'Completion of Undergraduate Education', time: "June 2021" },
+  { id: '5', type: 'order1', title: 'Research Publication', subtitle: {text: 'IEEE Paper',link:"https://ieeexplore.ieee.org/document/9456440"}, time: "June 2021" },
+  { id: '6', type: 'order1', title: 'ISTE-VESIT: Student Chapter', subtitle: 'Advanced to Chief Technical Officer position', time: "July 2020 - June 2021" },
+  { id: '7', type: 'order1', title: 'ISTE-VESIT: Student Chapter', subtitle: 'Served as Technical Officer on the Student Council', time: "September 2019 - July 2020" },
 ];
 
 // Project Diversity 
