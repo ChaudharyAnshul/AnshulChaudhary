@@ -45,7 +45,7 @@ export default function FolderCard({ title, subheader }) {
             </Link>
           </Grid>
           <Grid item xs={4} sm={4} md={4} lg={4}>
-            <Link href="https://da.chaudharyanshul.com/" target="_blank">
+            <Link href="https://ds.chaudharyanshul.com/" target="_blank">
               <ImageBox>
                 <Image src="assets/folders/analysis-folder.png" alt="Image 3"/>
               </ImageBox>
