@@ -185,6 +185,10 @@ export default function AppView() {
           />
         </Grid>
 
+        <Grid xs={12} sm={3} md={3}>
+          <div />
+        </Grid>
+
         <Grid xs={12} sm={6} md={3}>
           <WidgetSummary
             title="Snowflake Hands-On"
@@ -195,9 +199,6 @@ export default function AppView() {
           />
         </Grid>
 
-        <Grid xs={12} sm={3} md={4.5}>
-          <div />
-        </Grid>
 
         <Grid xs={12} sm={6} md={3}>
           <WidgetSummary
@@ -209,7 +210,7 @@ export default function AppView() {
           />
         </Grid>
 
-        <Grid xs={12} sm={3} md={4.5}>
+        <Grid xs={12} sm={3} md={3}>
           <div />
         </Grid>
 
