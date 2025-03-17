@@ -17,14 +17,14 @@ import BarChartHorizontal from '../bar-chart-horizontal';
 const skills = [
   { label: 'Python', value: 95 },
   { label: 'SQL / NoSQL', value: 92 },
-  { label: 'ETL / ELT', value: 90 },
-  { label: 'Airflow', value: 88 },
+  { label: 'React', value: 90 },
   { label: 'APIs', value: 85 },
   { label: 'AWS', value: 83 },
-  { label: 'React', value: 80 },
-  { label: 'Machine Learning', value: 80 },
+  { label: 'ETL / ELT', value: 90 },
+  { label: 'Airflow', value: 88 },
   { label: 'Snowflake', value: 78 },
   { label: 'Docker', value: 75 },
+  { label: 'Machine Learning', value: 75 },
 ];
 
 // Interpersonal Competencies
@@ -57,11 +57,11 @@ const projectDiversity = [
 const labelsProjectCount = [
   'Python',
   'SQL / NoSQL',
-  'ETL / ELT',
-  'Airflow',
+  'React',
   'APIs', 
   'AWS',
-  'React',
+  'ETL / ELT',
+  'Airflow',
   'ML',
   'NLP',
   'Snowflake',
@@ -72,7 +72,7 @@ const seriesProjectCount = [
     name: 'Anshul Chaudhary',
     type: 'column',
     fill: 'solid',
-    data: [16, 10, 8, 3, 8, 10, 6, 7, 4, 5, 6],
+    data: [16, 10, 9, 7, 6, 6, 5, 4, 1, 5, 6],
   },
 ];
 

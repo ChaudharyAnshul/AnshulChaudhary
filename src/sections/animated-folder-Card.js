@@ -25,27 +25,35 @@ const Image = styled('img')(({ theme }) => ({
 }));
 
 export default function FolderCard({ title, subheader }) {
+
+  const handleClick = (url) => {
+    alert('You Found the Hidden Link! \n You are being redirected!');
+    window.open(url, '_blank');
+  };
+
   return (
     <Card sx={{ width:"100%"}}>
       <CardHeader title={title} subheader={subheader} />
       <CardContent>
         <Grid container spacing={2} justifyContent="center">
           <Grid item xs={4} sm={4} md={4} lg={4}>
-            <Link href="https://se.chaudharyanshul.com/" target="_blank">
+            <Link href="#" onClick={() => handleClick("https://se.chaudharyanshul.com/")}>
+            <div onClick={() => handleClick("https://se.chaudharyanshul.com/")}>
               <ImageBox>
                 <Image src="assets/folders/web-dev-folder.png" alt="Image 1"/>
               </ImageBox>
+            </div>
             </Link>
           </Grid>
           <Grid item xs={4} sm={4} md={4} lg={4}>
-            <Link href="https://de.chaudharyanshul.com/" target="_blank">
+            <Link  href="#" onClick={() => handleClick("https://de.chaudharyanshul.com/")}>
               <ImageBox>
                 <Image src="assets/folders/data-pipeline-folder.png" alt="Image 2"/>
               </ImageBox>
             </Link>
           </Grid>
           <Grid item xs={4} sm={4} md={4} lg={4}>
-            <Link href="https://ds.chaudharyanshul.com/" target="_blank">
+            <Link  href="#" onClick={() => handleClick("https://ds.chaudharyanshul.com/")}>
               <ImageBox>
                 <Image src="assets/folders/analysis-folder.png" alt="Image 3"/>
               </ImageBox>
